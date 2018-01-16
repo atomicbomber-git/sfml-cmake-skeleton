@@ -22,7 +22,7 @@ int main()
         window.display();
 
         // Update loop
-	while (elapsed > MICROSECS_PER_FRAME) {
+        while (elapsed > MICROSECS_PER_FRAME) {
             // Do something cool
 
             elapsed -= MICROSECS_PER_FRAME;
